@@ -8,12 +8,15 @@
 	<script>
 		// AND, OR, NOT
 
-		var sexo = 'M', idade = 23;
+		var sexo = 'F', idade = 23;
 
-		if(sexo === 'M' && idade >= 18){
+		if(sexo !== 'M' && idade >= 18){
 			console.log("Okay");
 		}
 
+		var s = 'M';
+		var masculino = (s === 'M');
+		console.log(masculino);
 	</script>
 </body>
 </html>
